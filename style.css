@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none !important;
+}
+.container .logo{
+    position: absolute;
+    left: 90px;
+    top: 50px;
+}
+.container .logo a{
+    text-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+    font-weight: bold;
+    font-size: 2rem;
+    color: black;
+}
+
+
+.searcharia{
+    position: fixed;
+    right: 90px;
+    top: 50px;
+    width: 170px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 30px rgba(167,158,245,0.2); 
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 10% 10% 10% 10%/ 50% 50% 50% 50%;
+    z-index: 1;
+    border: 1px solid rgba(167,158,245,0.1);
+}
+.searcharia .searchbox input{
+    width: 90px;
+    height: 20px;
+    border: none;
+    outline: none;
+    background-color:transparent;
+    font-family: calibri;
+    font-size: 1rem;
+    padding:0 10px;
+}
+
+.searcharia .searchbox input::placeholder{
+    color: #1d1d1d;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+    font-family: poppins;
+    color: #1F1F1F;
+
+}
+
+.section1 {
+    position: absolute;
+    left: 15%;
+    top:50%;
+    transform: translate(-15%,-50%);
+    width: 100px;
+}
+.section1 img{
+    height: 300px;
+}
+.text{
+    position: absolute;
+    top:50%;
+    left:90%;
+    transform: translate(-90%,-50%);
+}
+
+ .text h1,h2{
+    font-family:roboto ;
+    font-weight: bold;
+    margin: 0px;
+    line-height: 60px;
+    font-size:4rem;
+    text-shadow: 2px 2px 10px rgb(0 0 0 / 8%);
+    letter-spacing: 3px;
+    color:#17171d;
+    text-transform: uppercase;
+    
+}
+
+.text h1{
+    letter-spacing: 20px;
+}
+.text h2{
+    font-weight: 800;
+    font-size: 50px;
+}
+ span{
+    color:#7A72FF;
+}
+.bt{
+    width:150px ;
+    height:40px ; 
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    background-color: #2f2e41;
+    justify-content: center; 
+    align-items: center;
+    display: flex;
+    border-radius:10% 10% 10% 10%/50% 50% 50% 50%;
+    margin-top:20px;
+    color: #fff;
+    font-family:calibri;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size:1rem;
+    outline:none;
+    cursor:pointer;
+    border:transparent !important; 
+    text-decoration: none;
+}
+.bt:hover{
+    color: #fff;
+    background-color: #7A72FF;
+    transition: 0.3s;
+}
+.iconaria{
+    position:fixed;
+    left: 30px;
+    top:50%;
+    background: #fff;
+    box-shadow: 2px 2px 30px rgba(167,158,245,0.2);
+    box-sizing: border-box;
+    border-radius: 50px;
+    width: 40px;
+    height: 224px;
+    z-index: 1;
+    transform: translateY(-50%);
+}
+.iconaria a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: rgb(109, 102, 102);
+    text-decoration: none;
+    padding: 18px 0;
+    font-size: 1.2rem;
+    text-decoration:  none !important;
+}
+
+.fab:hover{
+    color: #da0000;
+}
+
+.productsection{
+    width: 85%;
+    background-color: #fff;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+    display:flex;
+    margin:30px auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    margin-top: 600px;
+    position: relative;
+    background-size: 1000px;
+    border-radius: 10px;
+    
+}
+.productsection h3{
+    margin:20px;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.05);
+    font-family: myriad pro;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    color: #323543;
+
+}
+.product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin:10px 0;
+    width: 100%;
+}
+.productbox img{
+    width: 180px;
+
+
+}
+
+.productbox p{
+    color: #4d4d4d70;
+    font-family: myriad pro;
+    font-size: 0.9rem;
+    letter-spacing: 0.5;
+}
+.productbox{
+    width: 250px;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    position: relative;
+    margin: 10px 30px;
+}
+.productbox:hover{
+    box-shadow: 2px 2px 30px rgba(167,158,245,0.3);
+    box-sizing: border-box;
+    border-radius: 5px;
+    
+}
+.productbox:hover a:last-child{
+    color: #fff;
+    transition: all ease 0.3s;
+    visibility: visible;
+}
+.productbox a{
+    color: #2c2c2c;
+    font-family: poppis;
+    font-size: 1rem;
+    text-decoration:  none !important;
+    
+}
+
+.buybtn{
+    position:absolute;
+    width:140px;
+    height: 40px;
+    display:flex;
+    justify-content: center;
+    font-family: calibri;
+    align-items: center;
+    left: 50%;
+    bottom: 15px;
+    margin-top: -5px;
+    transform: translate(-50%);
+    border-radius: 15% 15% 15% 15%/ 50% 50% 50% 50%;
+    background: linear-gradient(120deg, #6b60ec 20%, #a166f4);
+    color: #fff;
+    visibility: hidden;
+    animation: fade 0.2s;
+    
+}
+.head{
+    margin-top: 180px;
+}
+
+.conten{
+    width: 85%;
+    margin: 50px auto;
+
+}
+.about{
+    width: 40%;
+    font-family: myriad pro;
+}
+.about h1{
+    color: #333;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.about h4{
+    color: #333;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.about p{
+    color:#bdbdbd;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.aboutimg{
+    float: right;
+    width: 40%;
+    margin-top: -295px;
+}
+.aboutimg img{
+    width: 600px;
+}
+
+.futor{
+    padding: 50px 0;
+    margin: auto;
+    display: block;
+}
+.futor h2{
+    margin: 10px auto;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: roboto;
+}
+.futor input{
+    box-shadow: 2px 2px 30px rgba(167,158,245,2); 
+    width: 500px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    border-radius:40px ;
+    border: none;
+    box-sizing: border-box;
+    padding: 28px 55px;
+    margin: 10px auto;
+    display: block;
+    outline: none;
+    border: 1px solid rgba(167,158,245,0.1);
+    background: transparent;
+    margin-top: 50px;
+    
+
+    
+}
+.futor placeholder{
+    color: #1F1F1F;
+    background: transparent;
+    font-family: sans-serif;
+    font-size: 1rem;
+    text-align: center;
+   
+}
+
+.futor .bt{
+    position:relative;
+    top: -70px ;
+    left: 634px;
+    
+}
+
+.futer-bottom{
+    background: #000;
+    color: #ddd;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.futer-bottom h3{
+    font-size: 20px;
+    font-family: lato;
+}
